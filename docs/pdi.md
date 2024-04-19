@@ -7,7 +7,7 @@ This function retrieves the population data for each block group within the give
 #### Parameters
 
 - **census_gdf** (`GeoDataFrame`): A GeoDataFrame that must contain the block groups' geometries and the FIPS codes for the state and counties.
-- **census_api_key** (`str`, optional): The API key for accessing the U.S. Census Bureau data. If not provided, the function will attempt to read it from a local file named `census_api_key.txt`.
+- **census_api_key** (`str`, optional): The API key for accessing the U.S. Census Bureau data. If not provided, the function will attempt to read it from a local file named `census_api_key.txt`. Census API keys may be generated at https://api.census.gov/data/key_signup.html.
 
 #### Returns
 
