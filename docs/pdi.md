@@ -2,7 +2,7 @@
 
 #### Description
 
-This function retrieves the population data for each block group within the given geographic areas from the U.S. Census Bureau's API and merges it with an existing GeoDataFrame containing block group geometries. The result includes added columns for population density and normalized population density relative to the maximum value in the dataset.
+This function retrieves the population data for each block group within the given geographic areas from the U.S. Census Bureau's API and merges it with an existing GeoDataFrame containing block group geometries. The result includes added columns for population density and PDI (normalized population density relative to the maximum value in the dataset).
 
 #### Parameters
 
