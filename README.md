@@ -19,11 +19,25 @@ Understanding the walkability of an environment is important for urban planning,
 
 **Getting Started**
 
+
+
 * **Prerequisites:**
    * Python 3.x 
-   * [Libraries/dependencies but idk yet TBA]
+   * **Libraries:**
+    * osmnx
+    * pandas
+    * numpy
+    * matplotlib.pyplot
+    * csv
+    * census
    * Census API Key: Can be found at: [https://api.census.gov/data/key_signup.html](https://api.census.gov/data/key_signup.html). **Must paste key in text file titled census_api_key.txt in the same directory as PDI_generator.ipynb to access population data.
-* **Installation:**
+
+**Installation**
+
+You can install the required libraries using pip:
+
+```bash
+pip install osmnx pandas numpy matplotlib csv census
 
 * **Usage:** 
 
