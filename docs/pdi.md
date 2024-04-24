@@ -29,10 +29,3 @@ This function retrieves the population data for each block group within the give
 5. **Population Density Calculation**: Calculates the population density and normalized population density, adding these metrics to the GeoDataFrame.
 6. **Data Cleaning**: Cleans up the GeoDataFrame by removing unnecessary columns and ensuring proper indexing and geometry settings.
 
-#### Example Usage
-
-```python
-# Assuming you have a GeoDataFrame 'gdf' with necessary FIPS codes and geometries
-api_key = "your_census_api_key"
-updated_gdf = get_blockgroup_population(gdf, api_key)
-print(updated_gdf.head())
